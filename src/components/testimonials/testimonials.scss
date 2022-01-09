@@ -80,7 +80,7 @@
                     &.user{
                         height: 60px;
                         width: 60px;
-                        border-radius: 50%;
+                        
                         object-fit: cover;
                         margin: 0 30px;
 
@@ -95,6 +95,7 @@
                 padding: 10px;
                 border-radius: 10px;
                 background-color: rgb(250, 244, 245) ;
+                text-align: center;
 
                 @include mobile{
                     font-size: 12px;

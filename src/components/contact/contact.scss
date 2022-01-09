@@ -11,11 +11,31 @@
     .left{
         flex: 1;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         img{
             height: 90%;
             padding: 30px;
         }
+        h1{
+            color: #EEEEEE;
+            font-size: 50px;
+        }
+        h2{
+            color:#EEEEEE;
+            font-size: 35px;
+        }
+        h3{
+            color:#EEEEEE;
+            font-size: 25px;
+        }
+        span{
+            color:#00ADB5;
+        }
+
     }
     .right{
         flex: 1;
@@ -23,6 +43,26 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        .icons{
+            color: #EEEEEE;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+            justify-content: space-between;
+            
+            size: 20px;
+        }
+
+        a{
+            color: #EEEEEE;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+        }
+
+        
 
         h2{
             font-size: 60px;

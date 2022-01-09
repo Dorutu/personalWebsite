@@ -23,16 +23,16 @@ export default function Portofolio() {
         },
         {
             id: "mobile",
-            title: "Mobile App",
+            title: "Websites",
         },
-        {
-            id: "design",
-            title: "Design",
-        },
-        {
-            id: "content",
-            title: "Content",
-        },
+        // {
+        //     id: "design",
+        //     title: "Design",
+        // },
+        // {
+        //     id: "content",
+        //     title: "Content",
+        // },
     ];
 
 

@@ -1,44 +1,46 @@
 import "./testimonials.scss"
+import Code from "@material-ui/icons";
 
 export default function Testimonials() {
 
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
-          title: "Senior Developer",
+          name: "Backend",
+          title: "",
           img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/twitter.png",
+            "https://i.ibb.co/d2R1Y4W/1336494.png",
+          icon: "",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "Javascript - jQuery - EJS - Node.js - Express.js - mongoDB - mySQL - RESTful API",
         },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
+          name: "Frontend",
+          title: "",
           img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/youtube.png",
+            "https://i.ibb.co/1MbmMhd/644585.png" ,
+          icon: "",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "ReactJS - CSS - Sass - Bootstrap",
+         
           featured: true,
         },
         {
           id: 3,
-          name: "Martin Harold",
-          title: "CEO of ALBI",
+          name: "Apps",
+          title: "",
           img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/linkedin.png",
+            "https://i.ibb.co/ZdFtkf8/2704022.png",
+          icon: "",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+            "Robo3T - Postman - HyperTerminal - Github - VSCode",
         },
       ];
 
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Testimonials.</h1>
+            <h1>Tehnologies i use.</h1>
             <div className="container">
             {data.map(d=>  (
                 <div className={d.featured ? "card featured" : "card"}>
