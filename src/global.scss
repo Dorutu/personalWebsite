@@ -1,9 +1,18 @@
 $mainColor: #15023a;
 
-$width: 768px;
+$width: 414px;
+
+$ipadwidth: 820px;
+//768
 
 @mixin mobile {
     @media (max-width: #{$width} ) {
+        @content
+    }
+}
+
+@mixin ipad {
+    @media (max-width: #{$ipadwidth} ) {
         @content
     }
 }

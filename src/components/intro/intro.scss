@@ -9,6 +9,7 @@
         align-items: center;
       }
 
+
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -26,6 +27,10 @@
             @include mobile{
                 align-items: flex-start;
             }
+            @include ipad{
+                
+                border-radius: 0%;
+            }
 
             img{
                 height: 90%;
@@ -33,6 +38,11 @@
                 @include mobile{
                     height: 50%;
                 }
+                 @include ipad{
+                     height: 70%;
+                     padding-left: 200px;
+                     border-radius: 0%;
+                 }
             }
         }
     }
