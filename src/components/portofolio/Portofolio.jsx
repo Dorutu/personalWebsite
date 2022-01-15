@@ -10,13 +10,13 @@ import {
 } from "../../data";
 
 export default function Portofolio() {
-    const [selected, setSelected] = useState("featured");
+    const [selected, setSelected] = useState("web");
     const [data, setData] = useState([]);
     const list = [
-        {
-            id: "featured",
-            title: "Featured",
-        },
+        // {
+        //     id: "featured",
+        //     title: "Featured",
+        // },
         {
             id: "web",
             title: "Web App",

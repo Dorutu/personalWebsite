@@ -1,6 +1,6 @@
 $mainColor: #15023a;
 
-$width: 414px;
+$width: 768px;
 
 $ipadwidth: 820px;
 //768
@@ -11,8 +11,3 @@ $ipadwidth: 820px;
     }
 }
 
-@mixin ipad {
-    @media (max-width: #{$ipadwidth} ) {
-        @content
-    }
-}
