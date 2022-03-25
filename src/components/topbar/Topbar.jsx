@@ -25,7 +25,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     >
                         <InsertLink style={{fontSize: 32, fill: "white"}} className="icon"/>
                         </Link>
-                        <a href="assets/botaDoruCv.pdf" target="_blank" >Resume</a>
+                        <a href="assets/Doru_Bota_Cv.pdf" target="_blank" >Resume</a>
                     </div>
                 </div>
     
