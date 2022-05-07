@@ -1,7 +1,14 @@
 @import "../../global.scss";
 
+
+
 .intro{
-    background-color: #222831;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    //    background-color: #222831;
     display: flex;
 
     @include mobile{
@@ -17,8 +24,8 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            background-color: #222831;
-            border-radius: 50%;
+         //   background-color: #222831;
+            border-radius: 40%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
@@ -60,7 +67,7 @@
             h1{
                 font-size: 80px;
                 margin: 10px 0;
-                color: #EEEEEE;
+                color: black;
 
                 @include mobile{
                     font-size: 40px;
@@ -68,11 +75,11 @@
             }
             h2{
                 font-size: 45px;
-                color: #EEEEEE;
+                color: black;
             }
             h3{
                 font-size: 40px;
-                color: #EEEEEE;
+                color: black;
 
                 @include mobile{
                     font-size: 20px;
@@ -80,7 +87,7 @@
 
                 span{
                     font-size: inherit;
-                    color: #00ADB5;
+                    color: black;
                 }
 
                 .ityped-cursor{
