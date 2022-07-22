@@ -1,7 +1,9 @@
 @import "../../global.scss";
 
 .contact{
-    background-color: #1a1e25;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
     display: flex;
 
     @include mobile {
@@ -21,7 +23,7 @@
             padding: 30px;
         }
         h1{
-            color: #EEEEEE;
+            color: black;
             font-size: 50px;
             text-align: center;
 
@@ -32,7 +34,7 @@
             }
         }
         h2{
-            color:#EEEEEE;
+            color: black;
             font-size: 35px;
             text-align: center;
 
@@ -43,7 +45,7 @@
             }
         }
         h3{
-            color:#EEEEEE;
+            color: black;
             font-size: 25px;
             text-align: center;
 
@@ -54,7 +56,7 @@
             }
         }
         span{
-            color:#00ADB5;
+            color: black;
         }
 
     }
@@ -66,7 +68,7 @@
         justify-content: center;
 
         .icons{
-            color: #EEEEEE;
+            color: black;
             cursor: pointer;
             display: flex;
             flex-direction: row;
@@ -77,7 +79,7 @@
         }
 
         a{
-            color: #EEEEEE;
+            color: black;
             cursor: pointer;
             display: flex;
             flex-direction: row;
@@ -87,7 +89,7 @@
 
         h2{
             font-size: 60px;
-            color: #EEEEEE;
+            color: black;
 
         }
         form{

@@ -12,7 +12,7 @@ export default function Testimonials() {
             "https://i.ibb.co/d2R1Y4W/1336494.png",
           icon: "",
           desc:
-            "Javascript - jQuery - EJS - Node.js - Express.js - mongoDB - mySQL - RESTful API",
+            "Javascript - jQuery - EJS - Node.js - Express.js - mongoDB - mySQL - RESTful API - Php - Symfony",
         },
         {
           id: 2,
@@ -22,7 +22,7 @@ export default function Testimonials() {
             "https://i.ibb.co/1MbmMhd/644585.png" ,
           icon: "",
           desc:
-            "ReactJS - CSS - Sass - Bootstrap",
+            "ReactJS - CSS - Sass - Bootstrap - Material UI",
          
           featured: true,
         },
@@ -34,7 +34,7 @@ export default function Testimonials() {
             "https://i.ibb.co/ZdFtkf8/2704022.png",
           icon: "",
           desc:
-            "Robo3T - Postman - HyperTerminal - Github - VSCode",
+            "Robo3T - Postman - HyperTerminal - Github - VSCode - Insomnia",
         },
       ];
 
